@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height:300px;
+    background: #25505E;
+}
+.name{
+    font-size: 144px;
+    line-height: 199px;
+
+    color: #FFFFFF;
+}
+.name-sec{
+    display: block-inline;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 25px;
+
+color: #FBFBFB;
+}
+.main{
+    height: 1168px;
+
+background: #37A6C8;
+}
+.menu{
+    display: inline-block;
+    vertical-align: bottom;
+
+}
+.module{
+    position: absolute;
+    display: block;
+    
+    height: 959px;
+    width: 80%;
+background: #FFFFFF;
+}

@@ -2,6 +2,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    background: #25505E;
+    
 }
 .header{
     height:300px;
@@ -10,11 +12,12 @@
 .name{
     font-size: 144px;
     line-height: 199px;
+    display: inline-block;
 
     color: #FFFFFF;
 }
 .name-sec{
-    display: block-inline;
+    display: inline-block;
 font-style: normal;
 font-weight: normal;
 font-size: 18px;
@@ -22,21 +25,28 @@ line-height: 25px;
 
 color: #FBFBFB;
 }
-.main{
-    height: 1168px;
 
-background: #37A6C8;
-}
 .menu{
     display: inline-block;
-    vertical-align: bottom;
-
+    
+    margin: 0 10px 0 10px;
+    background-color: #FBFBFB;
+    border-radius: 5px 5px 0px 0px;
+    
+height: 46px;
+}
+.module-name{
+    display: flex;
+    justify-content: center;
+    border-right: 200px solid #25505E;
+    border-left: 200px solid #25505E;  
+    background: #FFFFFF;
 }
 .module{
-    position: absolute;
-    display: block;
+    border-right: 200px solid #37A6C8;
+    border-left: 200px solid #37A6C8; 
+    
     
     height: 959px;
-    width: 80%;
 background: #FFFFFF;
 }
